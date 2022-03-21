@@ -5,7 +5,7 @@ Home: https://pypi.org/project/sphinx-theme-builder/
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-theme-builder-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-theme-builder-feedstock/blob/main/LICENSE.txt)
 
 Summary: A tool for authoring Sphinx themes with a simple (opinionated) workflow.
 
@@ -17,8 +17,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15568&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sphinx-theme-builder-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15568&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sphinx-theme-builder-feedstock?branchName=main">
       </a>
     </td>
   </tr>
