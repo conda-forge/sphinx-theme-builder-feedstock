@@ -1,5 +1,5 @@
 {% set name = "sphinx-theme-builder" %}
-{% set version = "0.2.0a14" %}
+{% set version = "0.2.0a15" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphinx-theme-builder-{{ version }}.tar.gz
-  sha256: 58dccafd30091c5a85a075a48fc34625102883d94ab09fd307188480d813ae45
+  sha256: 989f9f10752e1b13aa73176f194a040aa31d3f48ef46527e3c56496f4b7c2509
 
 build:
   number: 0
