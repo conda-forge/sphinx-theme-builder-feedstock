@@ -23,7 +23,7 @@ requirements:
   run:
     - nodeenv
     - packaging
-    - pep621
+    - pyproject-metadata
     - python >=3.7
     - rich
     - setuptools
