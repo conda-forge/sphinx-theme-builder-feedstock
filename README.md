@@ -1,11 +1,11 @@
-About sphinx-theme-builder
-==========================
+About sphinx-theme-builder-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-theme-builder-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/sphinx-theme-builder/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-theme-builder-feedstock/blob/main/LICENSE.txt)
 
 Summary: A tool for authoring Sphinx themes with a simple (opinionated) workflow.
 
