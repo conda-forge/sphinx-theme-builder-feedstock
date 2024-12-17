@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphinx-theme-builder-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sphinx-theme-builder-{{ version }}.tar.gz
   sha256: e9cd98c2bb35bf414fe721469a043cdcc10f0808d1ffcf606acb4a6282a6f288
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -19,12 +19,12 @@ requirements:
   host:
     - flit-core 3.3.0
     - pip
-    - python >=3.7
+    - python {{ python_min }}
   run:
     - nodeenv
     - packaging
     - pyproject-metadata
-    - python >=3.7
+    - python >={{ python_min }}
     - rich
     - setuptools
     - tomli
@@ -36,6 +36,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://pypi.org/project/sphinx-theme-builder/
