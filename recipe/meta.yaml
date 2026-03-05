@@ -1,5 +1,5 @@
 {% set name = "sphinx-theme-builder" %}
-{% set version = "0.2.0b2" %}
+{% set version = "0.3.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sphinx-theme-builder-{{ version }}.tar.gz
-  sha256: e9cd98c2bb35bf414fe721469a043cdcc10f0808d1ffcf606acb4a6282a6f288
+  sha256: 40b4bc2275b04d76781722c2e597770159e512f166986e1ceca1580a693f27bb
 
 build:
   number: 1
@@ -17,7 +17,7 @@ build:
 
 requirements:
   host:
-    - flit-core 3.3.0
+    - flit-core
     - pip
     - python {{ python_min }}
   run:
@@ -28,6 +28,7 @@ requirements:
     - rich
     - setuptools
     - tomli
+    - diagnostic
 
 test:
   imports:
